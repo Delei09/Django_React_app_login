@@ -1,0 +1,43 @@
+.dashboard {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.dashboard a {
+    font-style: none;
+    color: black;
+    font-size: 1.1rem;
+    width: 15rem;
+    height: 10rem;
+    background-color: rgb(172, 207, 238);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.icone {
+    width: 70px;
+    height: 70px;
+    margin: .3rem;
+}
+.opcao{
+    margin-left:3px ;
+    padding: 0.2rem;
+    cursor: pointer;
+    color: black;
+}
+.table{
+    height: 280px;
+}
+.tbody{
+    height: 250px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 1.2rem;
+}
